@@ -1,23 +1,30 @@
 body {
   font-family: monospace;
   font-size: 100%;
-  background-color: white;
-  color: #111;
+  background-color: #EEE;
+  color: #333;
   width: 80%;
-  min-width: 400px;
+  max-width: 1200px;
   min-height: 200px;
   padding: 1em;
   margin: 5% 10%;
   border: thin solid gray;
   border-radius: 5px;
   display: block;
+  margin: 5em auto;
 }
 
 a:link    { color: blue; text-decoration: none;      }
 a:hover   { color: blue; text-decoration: underline; }
 a:visited { color: blue;                             }
 
-h1 a { color: inherit !important }
+h1 a {
+    background: #78D278;
+    color: #026502;
+    padding : 1ex;
+    border-radius: 20px;
+    color: inherit !important;
+}
 h2 a { color: inherit !important }
 h3 a { color: inherit !important }
 h4 a { color: inherit !important }

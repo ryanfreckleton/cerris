@@ -1,5 +1,5 @@
 body {
-  font-family: monospace;
+  font-family: 'Catamaran', sans-serif;
   font-size: 100%;
   background-color: #EEE;
   color: #333;
@@ -7,33 +7,42 @@ body {
   max-width: 1200px;
   min-height: 200px;
   padding: 1em;
-  margin: 5% 10%;
-  border: thin solid gray;
-  border-radius: 5px;
+  margin: 0;
+  border: thin solid #026502;
   display: block;
   margin: 5em auto;
 }
 
 a:link    { color: blue; text-decoration: none;      }
 a:hover   { color: blue; text-decoration: underline; }
-a:visited { color: blue;                             }
+a:visited { color: purple;                             }
 
-h1 a {
+body > header {
     background: #78D278;
     color: #026502;
-    padding : 1ex;
-    border-radius: 20px;
-    color: inherit !important;
+    padding: 1ex;
+    margin: none;
 }
+
+header > nav a {
+    color: #78D278 !important;
+    font-family: 'Squada One', sans-serif;
+    font-size: 1.1em;
+}
+
+header li {
+    background-color: #2CA02C;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.5ex;
+}
+
+h1 a { color: inherit !important }
 h2 a { color: inherit !important }
 h3 a { color: inherit !important }
 h4 a { color: inherit !important }
 h5 a { color: inherit !important }
 h6 a { color: inherit !important }
-
-#menu li {
-    display: inline;
-}
 
 #post-list {
     margin-bottom: 1em;

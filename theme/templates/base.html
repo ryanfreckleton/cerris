@@ -28,6 +28,8 @@
         {% if TAG_FEED_RSS and tag %}
         <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
         {% endif %}
+        <link href='https://fonts.googleapis.com/css?family=Catamaran:100' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Squada+One' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css" />
         {% endblock head %}
 </head>
@@ -35,7 +37,6 @@
 <body id="index" class="home">
         <header id="banner" class="body">
                 <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
-        </header><!-- /#banner -->
         <nav id="menu"><ul>
         {% for title, link in MENUITEMS %}
             <li><a href="{{ link }}">{{ title }}</a></li>
@@ -52,6 +53,7 @@
           {% endif %}
         {% endif %}
         </ul></nav><!-- /#menu -->
+        </header><!-- /#banner -->
         {% block content %}
         {% endblock %}
         <footer id="contentinfo" class="body">

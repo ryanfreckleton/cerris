@@ -10,6 +10,7 @@ TAGLINE = "cloudy and tree-like thoughts"
 PATH = 'content'
 
 TIMEZONE = 'America/Denver'
+DATE_FORMAT = '%Y-%m-%d'
 
 DEFAULT_LANG = u'en'
 

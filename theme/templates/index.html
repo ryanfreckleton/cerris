@@ -1,28 +1,25 @@
-{% extends "base.html" %}
-{% block content %}
-<section id="content">
-{% block content_title %}
-<h2>All articles</h2>
-{% endblock %}
-
-<ol id="post-list">
-{% for article in articles_page.object_list %}
-        <li><article class="hentry">
-                <header> <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
-                <footer class="post-info">
-                    <time class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time>
-                    <address class="vcard author">By
-                    {% for author in article.authors %}
-                        <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-                    {% endfor %}
-                    </address>
-                </footer><!-- /.post-info -->
-                <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content -->
-        </article></li>
-{% endfor %}
-</ol><!-- /#posts-list -->
-{% if articles_page.has_other_pages() %}
-    {% include 'pagination.html' %}
-{% endif %}
-</section><!-- /#content -->
-{% endblock content %}
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ SITENAME }}: {{ TAGLINE }}</title>
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>{{ SITENAME }}</h1>
+            <p class="tagline">{{ TAGLINE }}</p>
+            <nav>
+                <span>List of Pages, including "tag" button</span>
+            </nav>
+        </header>
+        <main>
+        <h2>Article Or List Title</h2>
+        I am the main content. An article title and content should go here,
+        or a list of things.
+        </main>
+        <footer>
+            And I am the footer. A reddit button should go here.
+        </footer>
+    </body>
+</html>

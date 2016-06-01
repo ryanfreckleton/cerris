@@ -2,9 +2,10 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Ryan E. Freckleton'
-SITENAME = u'cerris.com'
-SITEURL = ''
+AUTHOR = 'Ryan'
+SITENAME = 'cerris'
+SITEURL = 'http://localhost:8000'
+TAGLINE = "cloudy and tree-like thoughts"
 
 PATH = 'content'
 

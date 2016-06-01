@@ -33,12 +33,15 @@ MENUITEMS = [
     ('Contact', '#'),
 ]
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = [
+    '<script type="text/javascript" src="//www.redditstatic.com/button/button1.js"></script>',
+    """
+    <a href="https://twitter.com/share" class="twitter-share-button" data-via="funtime_bobby">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    """
+]
 
 DEFAULT_PAGINATION = False
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 THEME = 'theme'

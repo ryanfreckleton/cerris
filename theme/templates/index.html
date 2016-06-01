@@ -10,16 +10,21 @@
             <h1>{{ SITENAME }}</h1>
             <p class="tagline">{{ TAGLINE }}</p>
             <nav>
-                <span>List of Pages, including "tag" button</span>
+                {% for (item, href) in MENUITEMS %}
+                <a href="{{href}}">{{item}}</a>
+                {% endfor %}
             </nav>
         </header>
         <main>
-        <h2>Article Or List Title</h2>
-        I am the main content. An article title and content should go here,
-        or a list of things.
+        <h2>Recent Articles</h2>
+        {% for article in articles %}
+            <a href="{{article.url}}">{{ article.title }}</a>
+        {% endfor %}
         </main>
         <footer>
-            And I am the footer. A reddit button should go here.
+            {% for widget in SOCIAL %}
+            {{widget}}
+            {% endfor %}
         </footer>
     </body>
 </html>

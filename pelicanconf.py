@@ -6,6 +6,7 @@ AUTHOR = 'Ryan'
 SITENAME = 'cerris'
 SITEURL = 'http://localhost:8000'
 TAGLINE = "cloudy and tree-like thoughts"
+DISPLAY_PAGES_ON_MENU = True
 
 PATH = 'content'
 

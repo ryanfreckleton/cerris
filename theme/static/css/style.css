@@ -6,7 +6,7 @@
  */
 
 html {
-  font-family: sans-serif; /* 1 */
+  font-family: 'Catamaran', sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
   width: 100%;
@@ -152,7 +152,7 @@ dfn {
  */
 
 h1 {
-  font-weight : bold;
+  font-family: 'Orbitron', sans-serif;
   font-size: 4em;
   margin: 0;
 }
@@ -422,6 +422,7 @@ textarea {
 }
 
 menu a {
+    font-family: 'Squada One', sans-serif;
     color : snow;
     background: black;
     padding : 1ex;
@@ -429,6 +430,14 @@ menu a {
     text-decoration : none;
     margin: 0.5ex 0;
     display: inline-block;
+}
+
+h1 a {
+    font-family: 'Orbitron', 'sans-serif';
+}
+
+a {
+    font-family: 'Squada One', sans-serif;
 }
 
 menu a:visited {
@@ -453,8 +462,13 @@ header {
 }
 
 article a {
+    font-family: 'Orbitron', 'sans-serif';
     font-size: 1.5em;
     font-weight : bold;
+}
+
+h2 {
+    font-family: 'Orbitron', 'sans-serif';
 }
 
 .pub-date {

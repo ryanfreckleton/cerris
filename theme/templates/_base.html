@@ -1,8 +1,8 @@
-<!DOCTYPE html>
-<html lang="{{ DEFAULT_LANG }}">
-<head>
-        {% block head %}
-        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{% block title %}{{ SITENAME }}: {{ TAGLINE }}{% endblock %}</title>
         <meta charset="utf-8" />
         {% if FEED_ALL_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
@@ -31,36 +31,34 @@
         <link href='https://fonts.googleapis.com/css?family=Catamaran:100' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Squada+One' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css" />
-        {% endblock head %}
-</head>
-
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
-        <nav id="menu"><ul>
-        {% for title, link in MENUITEMS %}
-            <li><a href="{{ link }}">{{ title }}</a></li>
-        {% endfor %}
-        {% if DISPLAY_PAGES_ON_MENU %}
-          {% for p in pages %}
-            <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
-          {% endfor %}
-        {% else %}
-          {% if DISPLAY_CATEGORIES_ON_MENU %}
-            {% for cat, null in categories %}
-              <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-            {% endfor %}
-          {% endif %}
-        {% endif %}
-        </ul></nav><!-- /#menu -->
-        </header><!-- /#banner -->
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>{% block siteheading %}<a href="{{ SITEURL }}">{{SITENAME}}</a>{% endblock %}</h1>
+            <p class="tagline">{{ TAGLINE }}</p>
+            <nav>
+                <menu>
+                    {% for (item, href) in MENUITEMS %}
+                    <a href="{{href}}">{{item}}</a>
+                    {% endfor %}
+                </menu>
+                <div class="pages">
+                    {% for p in pages %}
+                    <a href="{{p.url}}">{{p.title}}</a>
+                    {% endfor %}
+                </div>
+            </nav>
+        </header>
+        <main>
+        <h2>{% block heading %}{% endblock %}</h2>
         {% block content %}
         {% endblock %}
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-        </footer><!-- /#contentinfo -->
-</body>
+        </main>
+        <footer>
+            {% for widget in SOCIAL %}
+            {{widget}}
+            {% endfor %}
+        </footer>
+    </body>
 </html>

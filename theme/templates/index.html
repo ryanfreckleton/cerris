@@ -1,44 +1,14 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>{{ SITENAME }}: {{ TAGLINE }}</title>
-        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css" />
-    </head>
-    <body>
-        <header>
-            <h1>{{ SITENAME }}</h1>
-            <p class="tagline">{{ TAGLINE }}</p>
-            <nav>
-                <div class="menu">
-                    {% for (item, href) in MENUITEMS %}
-                    <a href="{{href}}">{{item}}</a>
-                    {% endfor %}
-                </div>
-                <div class="pages">
-                    {% for p in pages %}
-                    <a href="{{p.url}}">{{p.title}}</a>
-                    {% endfor %}
-                </div>
-            </nav>
-        </header>
-        <main>
-        <h2>Recent Articles</h2>
-        {% for article in articles %}
-        <article>
-            <a href="{{article.url}}">{{ article.title }}</a>
-            <p class="pub-date">{{ article.date|strftime(DATE_FORMAT)}}</p>
-            <div class="summary">
-                {{article.summary}}
-            </div>
-            <p class="author">{{article.author}}</p>
-        </article>
-        {% endfor %}
-        </main>
-        <footer>
-            {% for widget in SOCIAL %}
-            {{widget}}
-            {% endfor %}
-        </footer>
-    </body>
-</html>
+{% extends "_base.html" %}
+{% block siteheading %}{{ SITENAME }}{% endblock %}
+{% block content %}
+{% for article in articles %}
+<article>
+    <p class="pub-date">{{ article.date|strftime(DATE_FORMAT)}}</p>
+    <a href="{{article.url}}">{{ article.title }}</a>
+    <div class="summary">
+        {{article.summary}}
+    </div>
+    <p class="author">{{article.author}}</p>
+</article>
+{% endfor %}
+{% endblock %}

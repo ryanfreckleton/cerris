@@ -1,34 +1,8 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>{{ SITENAME }}: {{ TAGLINE }}</title>
-        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css" />
-    </head>
-    <body>
-        <header>
-            <h1><a href="{{SITEURL}}">{{ SITENAME }}</a></h1>
-            <p class="tagline">{{ TAGLINE }}</p>
-            <nav>
-                {% for (item, href) in MENUITEMS %}
-                <a href="{{href}}">{{item}}</a>
-                {% endfor %}
-            </nav>
-        </header>
-        <main>
-        <h2>{{article.title}}</h2>
-        <p class="author">{{ article.author }}</p>
-        <p class="pub-date">{{ article.date|strftime(DATE_FORMAT)}}</p>
-        {{article.content}}
-        </main>
-        <footer>
-            {% for tag in article.tags %}
-            <a href="{{tag.url}}">{{tag.name}}</a>
-            {% endfor %}
-            <br>
-            {% for widget in SOCIAL %}
-            {{widget}}
-            {% endfor %}
-        </footer>
-    </body>
-</html>
+{% extends "_base.html" %}
+{% block title %}{{ SITENAME }}: {{ article.title }}{% endblock %}
+{% block heading %}{{article.title}}{% endblock %}
+{% block content %}
+<p class="author">{{ article.author }}</p>
+<p class="pub-date">{{ article.date|strftime(DATE_FORMAT)}}</p>
+{{article.content}}
+{% endblock %}

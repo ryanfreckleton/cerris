@@ -9,10 +9,17 @@ html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  width: 100%;
+  background: white;
 }
 
 body {
-  margin: 1em;
+  margin: 1em auto;
+  max-width: 800px;
+  padding: 1em;
+  background: snow;
+  border-style: solid;
+  border-width: 1px;
 }
 
 /* HTML5 display definitions
@@ -30,7 +37,6 @@ details, /* 1 */
 figcaption,
 figure,
 footer,
-header,
 main, /* 2 */
 menu,
 nav,
@@ -146,8 +152,9 @@ dfn {
  */
 
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+  font-weight : bold;
+  font-size: 4em;
+  margin: 0;
 }
 
 /**
@@ -412,4 +419,74 @@ textarea {
 ::-webkit-file-upload-button {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
+}
+
+menu a {
+    color : snow;
+    background: black;
+    padding : 1ex;
+    border-radius : 1ex;
+    text-decoration : none;
+    display: inline-block;
+}
+
+menu a:visited {
+    color: snow;
+}
+
+menu a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    padding-top : 2em;
+}
+
+header {
+    display: block; /* Add the correct display in Edge, IE, and Firefox. */
+    padding-bottom : 2em;
+}
+
+.tagline {
+    margin-top: -1em;
+    margin-bottom: 1.5em;
+}
+
+article a {
+    font-size: 1.5em;
+    font-weight : bold;
+}
+
+.pub-date {
+    font-size: 1.3ex;
+}
+
+.summary {
+    display: inline;
+}
+
+.author {
+    font-size: 1.3ex;
+    font-style : italic;
+}
+
+.author:before {
+    content: "\2014";
+}
+
+article p {
+    margin: 0;
+}
+
+h1 a {
+    text-decoration : none;
+    color : black;
+}
+
+h1 a:hover {
+    text-decoration : underline;
+}
+
+ul {
+    padding-left : 1em;
 }

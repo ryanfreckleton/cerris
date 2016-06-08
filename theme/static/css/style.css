@@ -427,6 +427,7 @@ menu a {
     padding : 1ex;
     border-radius : 1ex;
     text-decoration : none;
+    margin: 0.5ex 0;
     display: inline-block;
 }
 
@@ -444,7 +445,6 @@ footer {
 
 header {
     display: block; /* Add the correct display in Edge, IE, and Firefox. */
-    padding-bottom : 2em;
 }
 
 .tagline {

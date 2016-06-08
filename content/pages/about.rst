@@ -1,6 +1,7 @@
 #####
 About
 #####
+:status: hidden
 
 Who am I?
  - Ryan Freckleton

@@ -6,7 +6,6 @@ AUTHOR = 'Ryan'
 SITENAME = 'cerris'
 SITEURL = 'http://localhost:8000'
 TAGLINE = "cloudy and tree-like thoughts"
-DISPLAY_PAGES_ON_MENU = True
 
 PATH = 'content'
 
@@ -29,7 +28,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 MENUITEMS = [
-    ('About', '#'),
+    ('About', 'pages/about.html'),
     ('Portfolio', '#'),
     ('Tags', '/tags.html'),
     ('Contact', '#'),

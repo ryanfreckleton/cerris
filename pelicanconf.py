@@ -28,7 +28,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 MENUITEMS = [
-    ('About', 'pages/about.html'),
+    ('About', '/pages/about.html'),
     ('Portfolio', '#'),
     ('Tags', '/tags.html'),
     ('Contact', '#'),

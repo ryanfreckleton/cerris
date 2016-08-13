@@ -1,6 +1,7 @@
 #############################
 Notes on Upgrading to Mint 18
 #############################
+:date: 2018-08-12
 
 I've upgraded my laptop to Linux Mint 18, using XFCE, of course.
 This time I'm attempting to keep it in better sync with my dekstop through the use of vcsh and myrepos.

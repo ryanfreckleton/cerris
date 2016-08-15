@@ -230,6 +230,16 @@ samp {
   font-size: 1em; /* 2 */
 }
 
+pre.literal-block {
+  background-color: white;
+  border-color: Silver;
+  border-radius : 1ex;
+  border-style: solid;
+  border-width: 1px;
+  padding: 1em;
+  white-space: pre-wrap;
+}
+
 /**
  * Add the correct margin in IE 8.
  */

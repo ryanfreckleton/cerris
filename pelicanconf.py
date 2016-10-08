@@ -7,6 +7,9 @@ SITENAME = 'cerris'
 SITEURL = 'http://localhost:8000'
 TAGLINE = "cloudy and tree-like thoughts"
 
+ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+
 PATH = 'content'
 
 TIMEZONE = 'America/Denver'

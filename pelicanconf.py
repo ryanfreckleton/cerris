@@ -33,7 +33,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 MENUITEMS = [
     ('About', '/pages/about.html'),
-    ('Portfolio', '#'),
+    ('Portfolio', '/pages/portfolio.html'),
     ('Tags', '/tags.html'),
     ('Contact', '#'),
 ]

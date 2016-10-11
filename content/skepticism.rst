@@ -26,4 +26,3 @@ The example is this, there are two colors, one called green and one called grue.
 - Any gatekeeper of knowledge must be able to handle the limits of calculative reason
 - The only such mechanism that does not require this is Faith
 - Therefore Faith is the reasonable gatekeeper of all knowledge
->>>>>>> outline

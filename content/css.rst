@@ -4,6 +4,7 @@ Getting Better at Cascading Style Sheets
 :tags: css, learning
 :authors: Ryan
 :summary: I've decided to get better at CSS...
+:status: published
 
 So far, I've revamped this website's CSS and am doing a presentation at PySprings_.
 I don't think that my skills are up to snuff, so this is a great way to get better at it.

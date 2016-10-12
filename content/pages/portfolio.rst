@@ -5,6 +5,30 @@ Portfolio
 
 Also known as Curricula Vitae
 
+skills:
+=======
+Leadership:
+-----------
+- Value Stream Mapping
+- Business Model Canvas
+- one-on-one coaching
+- Problem Solving Leadership Workshop graduate
+- Kaizen
+- Kanban
+- Lean Thinking
+
+:Linux: 15 years experience with Linux server/desktop in Debian, Red Hat Enterprise Linux and Ubuntu
+:Development: Python, Java, JavaScript, CSS, HTML5, C/C++, test-driven development, acceptance test-driven development
+
+Testing Methodology:
+--------------------
+- Blackbox Software Testing Foundations graduate,
+- Just-In-Time Software Testing
+- Cleanroom Statistical Testing
+- Exploratory Testing
+
+:Tools: fabric, vim, chef, py.test, inkscape, gtk-RecordMyDesktop
+
 
 experience:
 ===========
@@ -55,29 +79,15 @@ description:
 - Reduced test execution time
 -  Enhanced risk analysis Increased test coverage Worked on distributed teams
 
-skills:
-+++++++
-Leadership:
-```````````
-- Value Stream Mapping
-- Business Model Canvas
-- one-on-one coaching
-- Problem Solving Leadership Workshop graduate
-- Kaizen
-- Kanban
-- Lean Thinking
 
-:Linux: 15 years experience with Linux server/desktop in Debian, Red Hat Enterprise Linux and Ubuntu
-:Development: Python, Java, C/C++, test-driven development, acceptance test-driven development
 
-Testing Methodology:
-````````````````````
-- Blackbox Software Testing Foundations graduate,
-- Just-In-Time Software Testing
-- Cleanroom Statistical Testing
-- Exploratory Testing
+Web Master
+----------
+:dates: 2001—present
+:title: Web Master
+:organization: MontessoriMom.com
 
-:Tools: fabric, vim, chef, py.test, inkscape, gtk-RecordMyDesktop
+:description: Designed, implemented, tested and maintained custom content management system and other dynamic web pages.
 
 education:
 ==========

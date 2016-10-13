@@ -7,8 +7,12 @@ Also known as Curricula Vitae
 
 skills:
 =======
-Leadership:
------------
+:Development: Python, Java, JavaScript, CSS, HTML5, C/C++, test-driven development, acceptance test-driven development
+:Tools: fabric, vim, chef, py.test, inkscape, gtk-RecordMyDesktop
+:Linux: 15 years experience with Linux server/desktop in Debian, Red Hat Enterprise Linux and Ubuntu
+
+Soft Skills:
+------------
 - Value Stream Mapping
 - Business Model Canvas
 - one-on-one coaching
@@ -17,18 +21,12 @@ Leadership:
 - Kanban
 - Lean Thinking
 
-:Linux: 15 years experience with Linux server/desktop in Debian, Red Hat Enterprise Linux and Ubuntu
-:Development: Python, Java, JavaScript, CSS, HTML5, C/C++, test-driven development, acceptance test-driven development
-
 Testing Methodology:
 --------------------
 - Blackbox Software Testing Foundations graduate,
 - Just-In-Time Software Testing
 - Cleanroom Statistical Testing
 - Exploratory Testing
-
-:Tools: fabric, vim, chef, py.test, inkscape, gtk-RecordMyDesktop
-
 
 experience:
 ===========

@@ -1,5 +1,5 @@
 Title: Argument From Contingency
-Date: 2016-10-10
+Date: 2016-10-18
 
 I'm putting this conversation on this page so that we can look at it in one place.
 
@@ -80,23 +80,38 @@ October 10, 2016
 </blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-God has baggage
-God has not been shown to have: agency, consciousness, omnipotence, omniscience
-The explanation above doesn't have those qualities (Theory X)
 
-Definition of God
+The definition of God that I use is:
+- Omnipotent
+- The Grounding of Being
+- The Supreme Being
+- All-Wise
+- All-Good
+- Love itself
+- The Logos
 
-**Chris**
-Do remember that atheists have not, in general, read the summa so they don't know that this is a beginning, but an endpoint.
-Omnipotence and omniscience are trivial consequences of the proof from contingency and necessity.
-Agency is also definitionally there since a noncontingent thing cannot have been forced to do anything by an external force.
-Consciousness is harder, especially since it is by analogy.
+This proof is a starting point to further discussion.
+Oftentimes atheists talk about about the need to show God exists before we can talk about him.
+This proof, from contingency, does provide that **something** exists in our ontology that is eternal and non-contingent, from there we can talk about properties.
 
-**Dean**
-"Simultaneously fully aware of and in control of every particle or wave or anything else in the unvierse and outside it as well."
-That seems to get people's attention. There's been some intentional infusion in the culture I think, obsessing over "origins" and allow it to come to be believed that smart people think God built the universe and now just sort of watches it or these other daft ideas of God few have ever actually had.
+Once we are satisfied with showing that this **something** exists, we can go in deeper about its specific properties.
+Off the cuff, omniscience, omnipotence and agency are trivial consequences of non-contingency and God being a necessary being.
+Agency because since God has no cause, he is free, and agency means the ability to act unimpeded.
+Since each moment is contingent, on a variety of factors, that means that these factors are eventually rooted in **something**.
+This **something** is fundamentally involved in every moment of existence.
+Therefore this **something** is omnipotent and omniscient, because of its fundamental involvement.
 
-Divine simplicity http://www.reasonablefaith.org/proof-of-divine-simplicity
+If **Theory X** does not explain the contingency and causality of all moments, then it is fundamentally *less powerful* than what I call God.
+
+Consciousness is analogical.
+The poetic way that I tried to show on twitter, in longer form, is this:
+If trees gave fruit to musical instruments that played themselves, we would not say the property of making music existed only in those "fruit" but in the tree themselves.
+Likewise, since we are created by God and have intelligence, intelligence does not merely exist in us, but in our source as well.
+
+Particles themselves are contingent based on our understanding of physics.
+They decay, they didn't always exist.
+They would not exist without the bigbang.
+Now, some would say that the universe itself is God, but I, and most other Christians find [the proof of divine simplicity](http://www.reasonablefaith.org/proof-of-divine-simplicity) compelling.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="es" dir="ltr">
 <a href="https://twitter.com/funtime_bobby">@funtime_bobby</a>
@@ -108,6 +123,15 @@ October 10, 2016
 </a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+The reason I requested [rationalist taboo](https://wiki.lesswrong.com/wiki/Rationalist_taboo) is because I felt that we probably had a different understanding of what emergent is.
+My perspective is that a property is emergent only for a particular observer.
+It means that observer could or did not predict the appearance of that property.
+Depending on the perspective observers take, a property may be emergent or predictable.
+Emergence is a relationship between an observer and a phenomena, not the phenomena itself.
+
+When someone says a property is emergent, they are quite literally saying *I did not predict this property*.
+That does not mean that the property is fundamentally unpredictable or unexplainable.
+
 <blockquote class="twitter-tweet" data-lang="en"> <p lang="es" dir="ltr">
 <a href="https://twitter.com/funtime_bobby">@funtime_bobby</a> Response to #7 --&gt;
 <a href="https://t.co/tyR1Gb3lT3">pic.twitter.com/tyR1Gb3lT3</a>
@@ -117,3 +141,9 @@ October 10, 2016
 </a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+If God exists, He is the cause of everything.  
+A cause of everything exists.  
+God has the properties of: Agency, Omniscience, Omnipotence, Consciousness from your prior post.  
+The cause of everything that is pointed out by the argument from contingency has these properties.
+
+Ergo, the cause of the universe is by necessity, what theists call God.

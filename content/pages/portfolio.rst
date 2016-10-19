@@ -77,8 +77,6 @@ description:
 - Reduced test execution time
 - Enhanced risk analysis Increased test coverage Worked on distributed teams
 
-
-
 Web Master
 ----------
 :dates: 2001—present

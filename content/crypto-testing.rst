@@ -3,6 +3,8 @@ Assured Remote Testing With Cryptography
 ########################################
 :date: 2016-10-12
 
+[[illustration goes here]]
+
 I was part of a team that needed to test a vendor product.
 This product would predict a future state based on measurements up until the present.
 The problem was we only had historical data to test it against.

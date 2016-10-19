@@ -1,5 +1,6 @@
 Title: Argument From Contingency
 Date: 2016-10-18
+Status: published
 
 I'm putting this conversation on this page so that we can look at it in one place.
 
@@ -82,6 +83,7 @@ October 10, 2016
 
 
 The definition of God that I use is:
+
 - Omnipotent
 - The Grounding of Being
 - The Supreme Being

@@ -1,6 +1,7 @@
 ####
 Java
 ####
+:status: hidden
 
 Technologies:
 - TestNG

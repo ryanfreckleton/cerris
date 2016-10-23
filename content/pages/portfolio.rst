@@ -7,7 +7,7 @@ Also known as Curricula Vitae
 
 skills:
 =======
-:Development: Python, Java, JavaScript, CSS, HTML5, C/C++, test-driven development (TDD), acceptance test-driven development (ATDD)
+:Development: Python_, Java, JavaScript, CSS, HTML5, C/C++, test-driven development (TDD), acceptance test-driven development (ATDD)
 :Tools: fabric, vim, ansible, py.test, inkscape
 :Linux: 15 years experience with Linux server/desktop in Debian, Red Hat Enterprise Linux and Ubuntu
 
@@ -133,3 +133,4 @@ Open Source Contributions:
 
 __ http://www.cs.uccs.edu/~jkalita/work/StudentResearch/FreckletonMSThesis2013.pdf
 __ http://blog.cerris.com
+.. _Python: {filename}python.rst

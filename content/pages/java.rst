@@ -4,6 +4,7 @@ Java
 :status: hidden
 
 Technologies:
+
 - TestNG
 - Spring3
 - Jersey (RESTful web services)
@@ -13,5 +14,6 @@ Technologies:
 - Maven
 
 Projects:
+
 - Java system testing framework
 - Prototyping, high performance REST

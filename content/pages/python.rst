@@ -13,6 +13,8 @@ Some of the libraries I'm familiar with are:
 - nltk
 - matplotlib
 - mrjob
+- Flask
+- Django
 
 And I am familiar with a variety of paradigms in the language, including
 functional and object oriented programming and various techniques for

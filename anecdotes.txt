@@ -4,3 +4,7 @@ Modules that talk to PostgreSQL databases aren't good
 People asking if you've "looked at the documentation" first or what have you is dismissive and counterproductive, usually
 Pressure, like shit, flows down hill (performance testing)
 Quantitative results supported desired decisions, not the other way around
+Politics matter. Who has the power to retain you in the organization?
+Management must protect employees from other managers
+Cost centers vs profit centers drive dysfunction
+Testing and development personal relationships can save against organizational dysfunction
